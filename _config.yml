@@ -1,0 +1,25 @@
+# GitHub Pages Configuration for Peninsula Urban Gardening Society
+
+# Site settings
+title: Peninsula Urban Gardening Society
+description: Community gardening resources and information for the Peninsula Urban Gardening Society
+url: "https://wildryc.github.io"
+baseurl: "/pugs"
+
+# Theme
+theme: null
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include files
+include:
+  - _config.yml

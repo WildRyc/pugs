@@ -1,0 +1,102 @@
+/* Custom styles for Peninsula Urban Gardening Society */
+
+/* Brand colors - earthy greens */
+:root {
+    --pugs-green: #4a7c59;
+    --pugs-light-green: #6ba583;
+    --pugs-dark-green: #2d5a3d;
+    --pugs-earth: #8b6f47;
+}
+
+/* Header branding */
+.brand span[property="name"] {
+    color: var(--pugs-green);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Panel styling for feature sections */
+.panel-default > .panel-heading {
+    background-color: var(--pugs-light-green);
+    color: white;
+    border-color: var(--pugs-green);
+}
+
+.panel-default {
+    border-color: var(--pugs-green);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: var(--pugs-green);
+    border-color: var(--pugs-dark-green);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--pugs-dark-green);
+    border-color: var(--pugs-dark-green);
+}
+
+/* Garden card styling */
+.garden-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.garden-card h3 {
+    color: var(--pugs-green);
+    margin-top: 0;
+}
+
+/* Event styling */
+.event-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid var(--pugs-green);
+    background-color: #f5f5f5;
+}
+
+.event-date {
+    color: var(--pugs-dark-green);
+    font-weight: bold;
+}
+
+/* Resource categories */
+.resource-category {
+    margin-bottom: 30px;
+}
+
+.resource-category h3 {
+    color: var(--pugs-green);
+    border-bottom: 2px solid var(--pugs-light-green);
+    padding-bottom: 10px;
+}
+
+/* Contact form styling */
+.contact-info {
+    background-color: #f0f8f4;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Accessibility improvements */
+.wb-inv {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .brand span[property="name"] {
+        font-size: 1em;
+    }
+}
